@@ -1,0 +1,71 @@
+body {
+  background-image: url(fundo.png);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav {
+  height: 100px;
+  background-color: aquamarine;
+}
+.barra {
+  height: 10px;
+  background-color: black;
+}
+.nome {
+  border-radius: 10px;
+  top: 10px;
+  position: relative;
+  height: 20px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 50%);
+  left: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ff0000;
+}
+.sabor {
+  position: relative;
+  top: 60px;
+  left: -150px;
+  height: 30px;
+}
+button {
+  position: relative;
+  top: 0px;
+}
+
+#quantidade {
+  position: relative;
+  top: 100px;
+  width: 40px;
+  top: 0px;
+}
+.nav {
+  margin: 0;
+  position: background-size;
+  height: 100px;
+  background-color: pink;
+}
+.barra {
+  position: relative;
+  top: 0;
+  margin: 0;
+  height: 10px;
+  background-color: black;
+}
+#titulo {
+  position: relative;
+  text-align: center;
+  top: 35px;
+  font-size: 30px;
+}
+
+form {
+  position: relative;
+  left: 650px;
+  top: 350px;
+}
